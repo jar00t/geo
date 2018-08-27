@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta charset="utf-8" />
+        <title>GetOnline Indonesia - Pesan yang kamu mau!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="description" content="Pesan yang kamu mau. Tunggu di tempatmu." />
+        <meta name="author" content="Muhammad Yusuf Nur Fajar" />
+
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    
+        <link href="assets/plugins/pace/pace.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/font-awesome/font-awesome.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/jquery/scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="assets/plugins/select2/select2.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="assets/plugins/switchery/switchery.css" rel="stylesheet" type="text/css" media="screen" />
+        
+        <link href="assets/styles/icons.css" rel="stylesheet" type="text/css">
+        <link href="assets/styles/themes/light.css" rel="stylesheet" type="text/css" class="main-stylesheet" />
+    </head>
+    <body class="fixed-header">
+        <div class="page-container container-fluid">
+            <div class="header d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="brand inline d-flex align-items-center">
+                        <img src="assets/images/logos/logo.png" alt="logo" data-src="assets/images/logos/logo.png" data-src-retina="assets/images/logos/logo_2x.png" width="78" height="22">
+                    </div>
+                    <a href="#" class="search-link hidden-md-down" data-toggle="search"><i class="pg-menu"></i>Kategori</a>
+                </div>
+                <div class="d-flex hidden-md-down search">
+                    <div class="input-group transparent">
+                        <span class="input-group-addon">
+                            <i class="fa fa-search"></i>
+                        </span>
+                        <input type="text" placeholder="Cari sesuatu..." class="form-control">
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!--<a href="#" class="btn btn-sm btn-primary text-white m-l-20 hidden-md-down"><i class="fa fa-sign-in"></i> Masuk</a>
+                    <a href="#" class="btn btn-cons m-l-20 hidden-md-down"><i class="fa fa-plus"></i> Daftar</a>-->
+                    <ul class="hidden-sm-down notification-list no-margin b-grey b-r no-style p-l-30 p-r-20">
+                        <li class="p-r-10 inline">
+                            <div class="dropdown">
+                                <a href="javascript:;" id="notification-center" class="header-icon pg pg-world" data-toggle="dropdown">
+                                    <span class="bubble"></span>
+                                </a>
+                                <div class="dropdown-menu notification-toggle" role="menu" aria-labelledby="notification-center">
+                                    <div class="notification-panel">
+                                        <div class="notification-body scrollable">
+                                            <div class="notification-item unread clearfix">
+                                                <div class="heading">
+                                                    <a href="#" class="text-primary pull-left">
+                                                        <i class="fa fa-comment m-r-10"></i>
+                                                        <span class="bold">jar00t</span>
+                                                        <span class="fs-11 m-l-10">Mengomentari sesuatu</span>
+                                                    </a>
+                                                    <div class="pull-right">
+                                                        <div class="thumbnail-wrapper d16 circular inline m-t-15 m-r-10 toggle-more-details">
+                                                            <div><i class="fa fa-angle-left"></i></div>
+                                                        </div>
+                                                        <span class="time">barusan</span>
+                                                    </div>
+                                                    <div class="more-details">
+                                                        <div class="more-details-inner">
+                                                            <h5 class="semi-bold fs-16">
+                                                                “Yang ini pedes gak mang? <br>
+                                                                aku gak suka pedes.”
+                                                            </h5>
+                                                            <p class="small hint-text">
+                                                                pada produk <b>Batu Rebus Spesial Maracang</b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="option" data-toggle="tooltip" data-placement="left" title="sudah saya baca">
+                                                    <a href="#" class="mark"></a>
+                                                </div>
+                                            </div>
+                                            <div class="notification-item clearfix">
+                                                <div class="heading">
+                                                    <a href="#" class="text-primary pull-left">
+                                                        <i class="fa fa-comment m-r-10"></i>
+                                                        <span class="bold">asep.silet</span>
+                                                        <span class="fs-11 m-l-10">Mengomentari sesuatu</span>
+                                                    </a>
+                                                    <div class="pull-right">
+                                                        <div class="thumbnail-wrapper d16 circular inline m-t-15 m-r-10 toggle-more-details">
+                                                            <div><i class="fa fa-angle-left"></i></div>
+                                                        </div>
+                                                        <span class="time">kemarin</span>
+                                                    </div>
+                                                    <div class="more-details">
+                                                        <div class="more-details-inner">
+                                                            <h5 class="semi-bold fs-16">
+                                                                “Batu kok di rebus? <br>
+                                                                lu sehat bro?.”
+                                                            </h5>
+                                                            <p class="small hint-text">
+                                                                pada produk <b>Batu Rebus Spesial Maracang</b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="option" data-toggle="tooltip" data-placement="left" title="sudah saya baca">
+                                                    <a href="#" class="mark"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="notification-footer text-center">
+                                            <a href="#" class="">Lihat semua pemberitahuan</a>
+                                            <a data-toggle="refresh" class="portlet-refresh text-black pull-right" href="#">
+                                                <i class="pg-refresh_new"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-r-10 inline">
+                            <a href="#" class="header-icon pg pg-comment"></a>
+                        </li>
+                        <li class="p-r-10 inline">
+                            <a href="#" class="header-icon pg pg-shopping_cart"></a>
+                        </li>
+                    </ul>
+      
+                    <div class="pull-left p-r-10 fs-14 font-heading hidden-md-down m-l-20">
+                        <span class="semi-bold">Dadang</span> <span class="text-master">Gantar</span>
+                    </div>
+                    <div class="dropdown pull-right hidden-md-down">
+                        <button class="profile-dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="thumbnail-wrapper d32 circular inline">
+                                <img src="uploads/images/avatars/9219283892.jpg" alt="" data-src="uploads/images/avatars/9219283892.jpg" data-src-retina="uploads/images/avatars/9219283892_small2x.jpg" width="32" height="32">
+                            </span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown" role="menu">
+                            <a href="#" class="dropdown-item"><i class="pg-settings_small"></i> Pengaturan</a>
+                            <a href="#" class="dropdown-item"><i class="pg-outdent"></i> Feedback</a>
+                            <a href="#" class="dropdown-item"><i class="pg-signals"></i> Bantuan</a>
+                            <a href="#" class="clearfix bg-master-lighter dropdown-item">
+                                <span class="pull-left">Keluar</span>
+                                <span class="pull-right"><i class="pg-power"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content-wrapper">
+                <div class="content">
+                    <div class="container-fluid container-fixed-lg">
+                    
+                    </div>
+                </div>
+                <div class="container-fluid container-fixed-lg footer">
+                    <div class="copyright sm-text-center">
+                        <p class="small no-margin pull-left sm-pull-reset">
+                            <span class="hint-text">&copy; 2018 </span>
+                            <span class="font-montserrat">GetOnline Indonesia</span>.
+                        </p>
+                        <p class="small no-margin pull-right sm-pull-reset">
+                            <span class="hint-text"><i class="fa fa-phone m-r-10"></i> 087714753961</span>
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/plugins/feather/feather.js" type="text/javascript"></script>
+        <script src="assets/plugins/pace/pace.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/jquery.js" type="text/javascript"></script>
+        <script src="assets/plugins/modernizr/modernizr.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/ui/jquery-ui.js" type="text/javascript"></script>
+        <script src="assets/plugins/tether/tether.js" type="text/javascript"></script>
+        <script src="assets/plugins/bootstrap/bootstrap.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/easy/jquery-easy.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/unveil/jquery.unveil.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/ios-list/jquery.ioslist.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery/actual/jquery.actual.js"></script>
+        <script src="assets/plugins/jquery/scrollbar/jquery.scrollbar.js"></script>
+        <script src="assets/plugins/select2/select2.js" type="text/javascript"></script>
+        <script src="assets/plugins/classie/classie.js" type="text/javascript"></script>
+        <script src="assets/plugins/switchery/switchery.js" type="text/javascript"></script>
+        <script src="assets/scripts/pages.js"></script>
+        <script type="text/javascript">
+            (function($) {
+
+                'use strict';
+
+                $(document).ready(function() {
+                    $('.list-view-wrapper').scrollbar();
+                });
+
+                
+                $('.panel-collapse label').on('click', function(e){
+                    e.stopPropagation();
+                });
+
+                feather.replace({
+                    'width':16, 
+                    'height':16 
+                })
+                
+            })(window.jQuery);
+        </script>
+    </body>
+</html>
