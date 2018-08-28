@@ -10296,7 +10296,7 @@ body.overflow-hidden{
     }
 }
 .gallery{
-    margin:70px auto 0
+    margin:70px auto 20px
 }
 .gallery-item{
     overflow:hidden;
@@ -10317,10 +10317,10 @@ body.overflow-hidden{
     width:570px
 }
 .gallery-item[data-height="1"]{
-    height:240px
+    height:280px
 }
 .gallery-item[data-height="2"]{
-    height:490px
+    height:570px
 }
 .gallery-item > img{
     opacity:1;
