@@ -10510,9 +10510,6 @@ body.overflow-hidden{
     }
 }
 @media (max-width: 420px){
-    .gallery{
-        margin-top:80px
-    }
     .gallery-filters{
         top:-90px
     }
