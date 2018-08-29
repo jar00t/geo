@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,900');
+
+* {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+.logo-text-small {
+	width: 78px;
+	height: 22px;
+	background-image: url('../images/logo/logo-text-small.png');
+	background-size: 78px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.text-kiri {
+	text-align: right;
+}
+
+ul.text-list {
+	list-style-type: none;
+}
+ul.text-list li.judul {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #909090;
+}
+a:hover {
+	font-weight: bold;
+}
+
+footer {
+	width: 1200px;
+	margin: 10px auto;
+	border-top: 1px solid #e0e0e0;
+}
+footer .konten {
+	float: left;
+	display: block;
+	margin: 20px;
+}
+footer .kaki {
+	color: #909090;
+}
+footer .konten .baris {
+	margin-bottom: 20px;
+}
+footer .konten .baris .kolom {
+	float: left;
+	display: block;
+}
+footer .konten .baris .kolom-4 {
+	width: 290px;
+}
+footer .konten .baris .kolom-2 {
+	width: 580px;
+}
