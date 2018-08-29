@@ -179,13 +179,6 @@
                                     <div id="makanan-minuman" class="card card-transparent m-b-0">
                                         <div class="card-header gallery-header text-center">
                                             <div class="card-title" style="font-size:18px">MAKANAN & MINUMAN</div>
-                                            <div class="card-controls">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" class="card-refresh" data-toggle="refresh"><i class="card-icon card-icon-refresh"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </div>
                                         <div class="card-block">
                                             <div class="gallery">
@@ -331,13 +324,6 @@
                                     <div id="pakaian-aksesoris" class="card card-transparent">
                                         <div class="card-header gallery-header text-center">
                                             <div class="card-title" style="font-size:18px">PAKAIAN & AKSESORIS</div>
-                                            <div class="card-controls">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" class="card-refresh" data-toggle="refresh"><i class="card-icon card-icon-refresh"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </div>
                                         <div class="card-block">
                                             <div class="gallery">
@@ -650,17 +636,6 @@
 
                 $(document).ready(function() {
                     $('.list-view-wrapper').scrollbar();
-                });
-
-                $('#makanan-minuman, #pakaian-aksesoris').card({
-                    progress: 'circle',
-                    onRefresh: function() {
-                        setTimeout(function() {
-                            $('#makanan-minuman, #pakaian-aksesoris').card({
-                                refresh: false
-                            });
-                        }, 2000);
-                    }
                 });
                 
                 $('.panel-collapse label').on('click', function(e){
