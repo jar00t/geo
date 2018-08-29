@@ -99,7 +99,7 @@ body.menu-pin .overlay .overlay-brand{
     -webkit-animation:none;
     animation:none;
     top:73px;
-    background:url(../img/progress/progress-circle-success.svg) no-repeat top left;
+    background:url(../../images/progress/progress-circle-success.svg) no-repeat top left;
     background-size:100% auto;
     margin:0 auto;
     border-width:0;
@@ -1433,7 +1433,7 @@ body.menu-pin .overlay .overlay-brand{
     background:#f4ecd1
 }
 .quickview-wrapper .nav-tabs ~ .tab-content .quickview-notes .note{
-    background-image:url(../img/notes_lines.png);
+    background-image:url(../../images/notes_lines.png);
     background-repeat:repeat-y;
     background-position:27px top
 }
@@ -2474,10 +2474,10 @@ body.menu-pin .overlay .overlay-brand{
     opacity:.1
 }
 .card-icon-refresh-lg-master{
-    background-image:url(../img/progress/progress-circle-lg-master-static.svg)
+    background-image:url(../../images/progress/progress-circle-lg-master-static.svg)
 }
 .card-icon-refresh-lg-white{
-    background-image:url(../img/progress/progress-circle-lg-white-static.svg)
+    background-image:url(../../images/progress/progress-circle-lg-white-static.svg)
 }
 .card-icon-refresh-lg-master-animated,.card-icon-refresh-lg-white-animated{
     width:15px;
@@ -2492,10 +2492,10 @@ body.menu-pin .overlay .overlay-brand{
     opacity:1
 }
 .card-icon-refresh-lg-master-animated{
-    background-image:url(../img/progress/progress-circle-lg-master.svg)
+    background-image:url(../../images/progress/progress-circle-lg-master.svg)
 }
 .card-icon-refresh-lg-white-animated{
-    background-image:url(../img/progress/progress-circle-lg-white.svg)
+    background-image:url(../../images/progress/progress-circle-lg-white.svg)
 }
 .card-scroll{
     height:100px
@@ -3810,7 +3810,7 @@ button:focus{
     top:8px
 }
 .alert .close{
-    background:url(../img/icons/noti-cross.png) no-repeat scroll 0 0 transparent;
+    background:url(../../images/icons/noti-cross.png) no-repeat scroll 0 0 transparent;
     background-position:-9px -10px;
     width:10px;
     height:9px;
@@ -4483,37 +4483,37 @@ body > .pgn-wrapper{
     height:3px
 }
 .progress-bar-indeterminate{
-    background:url(../img/progress/progress-bar-master.svg) no-repeat top left;
+    background:url(../../images/progress/progress-bar-master.svg) no-repeat top left;
     width:100%;
     height:100%;
     background-size:cover
 }
 .progress-bar-indeterminate.progress-bar-primary{
-    background-image:url(../img/progress/progress-bar-primary.svg);
+    background-image:url(../../images/progress/progress-bar-primary.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-complete{
-    background-image:url(../img/progress/progress-bar-complete.svg);
+    background-image:url(../../images/progress/progress-bar-complete.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-success{
-    background-image:url(../img/progress/progress-bar-success.svg);
+    background-image:url(../../images/progress/progress-bar-success.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-info{
-    background-image:url(../img/progress/progress-bar-info.svg);
+    background-image:url(../../images/progress/progress-bar-info.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-warning{
-    background-image:url(../img/progress/progress-bar-warning.svg);
+    background-image:url(../../images/progress/progress-bar-warning.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-danger{
-    background-image:url(../img/progress/progress-bar-danger.svg);
+    background-image:url(../../images/progress/progress-bar-danger.svg);
     background-color:transparent
 }
 .progress-bar-indeterminate.progress-bar-master{
-    background-image:url(../img/progress/progress-bar-master.svg);
+    background-image:url(../../images/progress/progress-bar-master.svg);
     background-color:transparent
 }
 .progress-bar{
@@ -4584,29 +4584,29 @@ body > .pgn-wrapper{
     background-color:#47525e
 }
 .progress-circle-indeterminate{
-    background:url(../img/progress/progress-circle-master.svg) no-repeat top left;
+    background:url(../../images/progress/progress-circle-master.svg) no-repeat top left;
     width:50px;
     height:50px;
     background-size:100% auto;
     margin:0 auto
 }
 .progress-circle-indeterminate.progress-circle-warning{
-    background-image:url(../img/progress/progress-circle-warning.svg)
+    background-image:url(../../images/progress/progress-circle-warning.svg)
 }
 .progress-circle-indeterminate.progress-circle-danger{
-    background-image:url(../img/progress/progress-circle-danger.svg)
+    background-image:url(../../images/progress/progress-circle-danger.svg)
 }
 .progress-circle-indeterminate.progress-circle-info{
-    background-image:url(../img/progress/progress-circle-info.svg)
+    background-image:url(../../images/progress/progress-circle-info.svg)
 }
 .progress-circle-indeterminate.progress-circle-primary{
-    background-image:url(../img/progress/progress-circle-primary.svg)
+    background-image:url(../../images/progress/progress-circle-primary.svg)
 }
 .progress-circle-indeterminate.progress-circle-success{
-    background-image:url(../img/progress/progress-circle-success.svg)
+    background-image:url(../../images/progress/progress-circle-success.svg)
 }
 .progress-circle-indeterminate.progress-circle-complete{
-    background-image:url(../img/progress/progress-circle-complete.svg)
+    background-image:url(../../images/progress/progress-circle-complete.svg)
 }
 .progress-circle{
     display:block;
@@ -7217,7 +7217,7 @@ select.full-width + .select2-container{
     font-weight:600
 }
 .editor-icon{
-    background-image:url(../img/editor_tray.png);
+    background-image:url(../../images/editor_tray.png);
     display:inline-block;
     height:40px;
     margin-top:5px;
@@ -7965,16 +7965,16 @@ div.cs-skin-slide .cs-options ul li span:hover,div.cs-skin-slide .cs-options ul 
     display:block!important
 }
 table.dataTable thead .sorting_asc:after{
-    background-image:url(../img/icons/sort_asc.png)
+    background-image:url(../../images/icons/sort_asc.png)
 }
 table.dataTable thead .sorting_desc:after{
-    background-image:url(../img/icons/sort_desc.png)
+    background-image:url(../../images/icons/sort_desc.png)
 }
 table.dataTable thead .sorting:after{
-    background-image:url(../img/icons/sort_both.png)
+    background-image:url(../../images/icons/sort_both.png)
 }
 table.dataTable thead .sorting_asc_disabled:after{
-    background-image:url(../img/icons/sort_asc_disabled.png)
+    background-image:url(../../images/icons/sort_asc_disabled.png)
 }
 table.dataTable thead .sorting_desc_disabled:after{
     background-image:url(img/icons/sort_desc_disabled.png)
@@ -8555,7 +8555,7 @@ input.list-view-search{
     overflow-x:hidden
 }
 .social-wrapper .social .cover-photo:before{
-    background-image:url(../img/linear_gradient.png);
+    background-image:url(../../images/linear_gradient.png);
     background-repeat:repeat-x;
     bottom:0;
     content:" ";
@@ -10296,7 +10296,7 @@ body.overflow-hidden{
     }
 }
 .gallery{
-    margin:70px auto 20px
+    margin:10px auto 0
 }
 .gallery-item{
     overflow:hidden;
@@ -10305,7 +10305,7 @@ body.overflow-hidden{
     margin-bottom:10px;
     position:relative;
     width:280px;
-    height:240px
+    height:280px
 }
 .gallery-item:hover{
     cursor:pointer
@@ -10599,80 +10599,80 @@ body.overflow-hidden{
     width:240px
 }
 .mapplic-pin{
-    background-image:url(../../../assets/img/maps/marker-master.svg);
+    background-image:url(../../images/maps/marker-master.svg);
     background-size:contain
 }
 .mapplic-pin.pulse{
-    background-image:url(../../../assets/img/maps/pulse-master.svg)
+    background-image:url(../../images/maps/pulse-master.svg)
 }
 .mapplic-pin.pulse.green{
-    background-image:url(../../../assets/img/maps/pulse-success.svg)
+    background-image:url(../../images/maps/pulse-success.svg)
 }
 .mapplic-pin.pulse.blue{
-    background-image:url(../../../assets/img/maps/pulse-complete.svg)
+    background-image:url(../../images/maps/pulse-complete.svg)
 }
 .mapplic-pin.pulse.purple{
-    background-image:url(../../../assets/img/maps/pulse-primary.svg)
+    background-image:url(../../images/maps/pulse-primary.svg)
 }
 .mapplic-pin.pulse.yellow{
-    background-image:url(../../../assets/img/maps/pulse-warning.svg)
+    background-image:url(../../images/maps/pulse-warning.svg)
 }
 .mapplic-pin.pulse.red{
-    background-image:url(../../../assets/img/maps/pulse-danger.svg)
+    background-image:url(../../images/maps/pulse-danger.svg)
 }
 .mapplic-pin.pulse-alt{
-    background-image:url(../../../assets/img/maps/pulse-alt-master.svg)
+    background-image:url(../../images/maps/pulse-alt-master.svg)
 }
 .mapplic-pin.pulse-alt.green{
-    background-image:url(../../../assets/img/maps/pulse-alt-success.svg)
+    background-image:url(../../images/maps/pulse-alt-success.svg)
 }
 .mapplic-pin.pulse-alt.blue{
-    background-image:url(../../../assets/img/maps/pulse-alt-complete.svg)
+    background-image:url(../../images/maps/pulse-alt-complete.svg)
 }
 .mapplic-pin.pulse-alt.purple{
-    background-image:url(../../../assets/img/maps/pulse-alt-primary.svg)
+    background-image:url(../../images/maps/pulse-alt-primary.svg)
 }
 .mapplic-pin.pulse-alt.yellow{
-    background-image:url(../../../assets/img/maps/pulse-alt-warning.svg)
+    background-image:url(../../images/maps/pulse-alt-warning.svg)
 }
 .mapplic-pin.pulse-alt.red{
-    background-image:url(../../../assets/img/maps/pulse-alt-danger.svg)
+    background-image:url(../../images/maps/pulse-alt-danger.svg)
 }
 .mapplic-pin.marker{
-    background-image:url(../../../assets/img/maps/marker-master.svg)
+    background-image:url(../../images/maps/marker-master.svg)
 }
 .mapplic-pin.marker.green{
-    background-image:url(../../../assets/img/maps/marker-success.svg)
+    background-image:url(../../images/maps/marker-success.svg)
 }
 .mapplic-pin.marker.blue{
-    background-image:url(../../../assets/img/maps/marker-complete.svg)
+    background-image:url(../../images/maps/marker-complete.svg)
 }
 .mapplic-pin.marker.purple{
-    background-image:url(../../../assets/img/maps/marker-primary.svg)
+    background-image:url(../../images/maps/marker-primary.svg)
 }
 .mapplic-pin.marker.yellow{
-    background-image:url(../../../assets/img/maps/marker-warning.svg)
+    background-image:url(../../images/maps/marker-warning.svg)
 }
 .mapplic-pin.marker.red{
-    background-image:url(../../../assets/img/maps/marker-danger.svg)
+    background-image:url(../../images/maps/marker-danger.svg)
 }
 .mapplic-pin.marker-alt{
-    background-image:url(../../../assets/img/maps/marker-alt-master.svg)
+    background-image:url(../../images/maps/marker-alt-master.svg)
 }
 .mapplic-pin.marker-alt.green{
-    background-image:url(../../../assets/img/maps/marker-alt-success.svg)
+    background-image:url(../../images/maps/marker-alt-success.svg)
 }
 .mapplic-pin.marker-alt.blue{
-    background-image:url(../../../assets/img/maps/marker-alt-complete.svg)
+    background-image:url(../../images/maps/marker-alt-complete.svg)
 }
 .mapplic-pin.marker-alt.purple{
-    background-image:url(../../../assets/img/maps/marker-alt-primary.svg)
+    background-image:url(../../images/maps/marker-alt-primary.svg)
 }
 .mapplic-pin.marker-alt.yellow{
-    background-image:url(../../../assets/img/maps/marker-alt-warning.svg)
+    background-image:url(../../images/maps/marker-alt-warning.svg)
 }
 .mapplic-pin.marker-alt.red{
-    background-image:url(../../../assets/img/maps/marker-alt-danger.svg)
+    background-image:url(../../images/maps/marker-alt-danger.svg)
 }
 .pricing-table td[class*="bg-"],.pricing-table th[class*="bg-"]{
     border-bottom-width:1px;
@@ -10744,7 +10744,7 @@ body.overflow-hidden{
     opacity:.69
 }
 .widget-1:after{
-    background-image:url(../../../assets/img/dashboard/pages_hero.jpg);
+    background-image:url(../../images/dashboard/pages_hero.jpg);
     background-size:cover;
     content:" ";
     left:0;
@@ -10756,7 +10756,7 @@ body.overflow-hidden{
     opacity:.69
 }
 .widget-1:before{
-    background-image:url(../img/linear_gradient.png);
+    background-image:url(../../images/linear_gradient.png);
     background-repeat:repeat-x;
     content:" ";
     left:0;
@@ -10785,7 +10785,7 @@ body.overflow-hidden{
     background:rgba(255,255,255,0.3)
 }
 .widget-2:after{
-    background-image:url(../../../assets/img/social/person-cropped.jpg)
+    background-image:url(../../images/social/person-cropped.jpg)
 }
 .widget-3 a{
     text-decoration:none
@@ -10996,7 +10996,7 @@ body.overflow-hidden{
 }
 .widget-18-post{
     height:342px;
-    background:url(../../../assets/img/social/quote.jpg);
+    background:url(../../images/social/quote.jpg);
     background-position:center center;
     background-size:cover
 }
@@ -11963,7 +11963,7 @@ body.overflow-hidden{
     height:calc(100% - 12px)
 }
 .builder [data-action].active:before{
-    background-image:url(../../../assets/img//demo/tick.svg);
+    background-image:url(../../images//demo/tick.svg);
     width:23px;
     height:23px;
     content:'';
@@ -11996,7 +11996,7 @@ body.overflow-hidden{
     opacity:.7
 }
 .builder a.btn-toggle-layout.active:before{
-    background-image:url(../../../assets/img//demo/tick.svg);
+    background-image:url(../../images//demo/tick.svg);
     width:23px;
     height:23px;
     content:'';
@@ -13355,11 +13355,11 @@ body.overflow-hidden{
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 200100),only screen and (min-device-pixel-ratio: 2){
     .editor-icon{
-        background-image:url(../img/editor_tray_2x.png);
+        background-image:url(../../images/editor_tray_2x.png);
         background-size:480px 40px
     }
     .alert .close{
-        background:url(../img/icons/noti-cross-2x.png) no-repeat scroll 0 0 transparent;
+        background:url(../../images/icons/noti-cross-2x.png) no-repeat scroll 0 0 transparent;
         background-position:-9px -10px;
         width:10px;
         height:9px;
